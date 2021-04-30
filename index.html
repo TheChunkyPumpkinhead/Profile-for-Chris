@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Chris Campos</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon"
+    href="./images/favicon.png"
+    type="image/png" />
+</head>
+
+<body>
+  <!-- Header (name + title) -->
+
+  <header>
+    <h1>Chris Campos</h1>
+    <p>Software Engineer</p>
+    <!-- nav -->
+    <nav>
+      <ul>
+        <li><a href="#about" class="button">About</a></li>
+        <li><a href="#projects" class="button">Projects</a></li>
+        <li><a href="#contact" class="button">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- end nav -->
+  </header>
+  <!-- Image and Welcome Message -->
+
+  <main class="wrapper">
+    <div class="imageWrapper">
+      <img class="imgClass" src="./images/me-paddling.jpeg" alt="Chris Campos" />
+    </div>
+    <div class="group sect">
+      <p>
+        Hello, I am in the process of learning for my new career.I'm currently a student at Thinkful studying Software
+        Engineering.Below you will see a little bit about me, my portfolio and a way to contact me! Happy scrolling!
+      </p>
+
+      <!-- Ordered List of code languages -->
+
+      <div class="group">
+        <div class="tech">
+          <img class="techimage" src="./images/front-end-icons.png" alt="Front End Skills" />
+          <img class="techimage" src="./images/back-end-icons.png" alt="Back End Skills" />
+
+        </div>
+      </div>
+    </div>
+    <hr class="wrapper" />
+
+    <!-- About Me Section -->
+    <article id="about" class="wrapper sect">
+      <h3>About</h3>
+      <p>
+        Howzit! I am excited to be in this awesome field and working with amazing and talented Developers! I will be a
+        full stack developer with a passion for front end projects. Before this new chapter in my life, I was in Sales.
+        I can be found hanging out with my dog, Paddling, and checking out new Food Joints. Yup, in that order!
+      </p>
+
+      <p>
+        I am now a student at
+        <a href="https://www.thinkful.com/" target="_blank">Thinkful</a> and I
+        plan to implement the skills I've learned as a Lifeguard into the
+        tech world. I have a passion for helping people in any way that I can,
+        and I hope to be able to create software that can do just that.
+      </p>
+      <p>
+        If you're looking for a software engineer who is excited to take on a
+        challenge, please feel free to reach out. I’m actively looking for new
+        opportunities and I look forward to working with experienced
+        engineers.
+      </p>
+    </article>
+    <hr class="wrapper" />
+
+    <!--  Projects Section -->
+    <article class="sect" id="projects">
+      <h3>Projects</h3>
+      <ul class="projects">
+        <li class="project" id="1">
+          <img class="thumbnail" src="./images/wavez.png" alt="Wavez Search" />
+          <h4>
+            <a href="https://tuckit.vercel.app" target="_blank">Wavez Search</a>
+          </h4>
+          <h5>
+            <a href="https://github.com/TheChunkyPumpkinhead/wavez-search" target="_blank">Github Repository</a>
+          </h5>
+          <p>
+            This is a members only application for people who love to surf. Members can post their favorite surf spots
+            ,leave ratings, and save sites to their account where they can leave themselves notes.
+          </p>
+        </li>
+
+        <li class="project left">
+          <img class="thumbnail" src="./images/surf-app.png" alt="Surf App" />
+          <h4>
+            <a href="surf-jotz-thechunkypumpkinhead.vercel.app" target="_blank">Surf App
+            </a>
+          </h4>
+          <h5>
+            <a href="https://github.com/TheChunkyPumpkinhead/surf-app" target="_blank">Github Repository</a>
+          </h5>
+          <p>
+            This is an application for people to publicly document information about surfing. Users will be guided to an
+            area to store thoughts and information.
+          </p>
+        </li>
+
+        <li class="project left">
+          <img class="thumbnail" src="./images/space-quiz.png" alt="Space Quiz" />
+          <h4>
+            <a href="https://thechunkypumpkinhead.github.io/Space-Quiz-App/" target="_blank">Space Quiz
+            </a>
+          </h4>
+          <h5>
+            <a href="https://github.com/TheChunkyPumpkinhead/Space-Quiz-App" target="_blank">Github Repository</a>
+          </h5>
+          <p>
+            The Space Quiz app is a quiz application with a space theme.
+
+          </p>
+        </li>
+      </ul>
+    </article>
+
+    <hr class="wrapper" />
+    <!-- Contact Information -->
+
+    <div id="contact" class="wrapper">
+      <h3>Contact Me</h3>
+
+      <!-- list of contact methods -->
+
+      <ul>
+        <li>
+          <a href="https://github.com/TheChunkyPumpkinhead" class="button" target="_blank">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/chris-campos-yah/" class="button" target="_blank">
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="mailto:chriscampos@remainobscure.com" class="button" target="_blank">
+            Email
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Email Form -->
+
+    <div>
+      <form action="process-form.js" method="POST" class="center">
+        <label for="name">Your Name</label>
+        <input type="text" name="name" id="name" placeholder="Your Name" required />
+
+        <label for="subject">Your Email</label>
+        <input type="text" name="subject" id="subject" placeholder="email@email.com" />
+
+        <label for="form-message">Your message:</label>
+        <textarea id="form-message" name="message" required placeholder="Let's Code!"></textarea>
+
+        <button type="submit" name="submit">Submit</button>
+      </form>
+    </div>
+    <!-- Footer -->
+  </main>
+  <footer>@Chris Campos 2021</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
