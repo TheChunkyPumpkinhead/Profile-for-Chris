@@ -9,18 +9,19 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: white;
+  background-color: rgb(240, 240, 70);
   margin: 0;
 }
 
 a {
   text-decoration: none;
+  color: rgb(12, 15, 187);
 }
 
 /* ----- header format ----- */
 header {
-  color: white;
-  background-color: #736f72;
+  color: rgb(0, 0, 0);
+  background-color: royalblue;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -37,7 +38,7 @@ header h1 {
 
 header nav {
   width: 100%;
-  background-color: white;
+  background-color: royalblue;
 }
 
 header nav ul {
@@ -58,7 +59,7 @@ header nav ul li {
 h3 {
   font-family: "Megrim", cursive;
   font-size: 30px;
-  color: #736f72;
+  color: rgb(12, 15, 187);
 }
 .tech {
   margin: 5px auto;
@@ -68,7 +69,7 @@ h3 {
   border: 1px solid black;
   border-radius: 0.3em;
 
-  background-color: #f8f9fa;
+  background-color: rgb(12, 15, 187);
   padding: 5px;
   width: 200px;
 }
@@ -185,15 +186,22 @@ form button {
 }
 
 form button:hover {
-  box-shadow: 0px 3px 5px 1px #e6e8eb;
+  box-shadow: 0px 3px 5px 1px #e23a07;
 }
 
 .button {
   color: #ffffff;
-  border: 1px #736f72 solid;
-  background-color: #736f72;
+  border: 1px #ffffff;
+  background-color: #0e0d0d;
   padding: 5px 15px;
   border-radius: 0.3em;
+}
+/* ---- Footer ---- */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
 }
 
 /* ---- Media ---- */
