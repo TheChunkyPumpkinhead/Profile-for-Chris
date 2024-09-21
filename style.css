@@ -4,7 +4,7 @@
 * {
   box-sizing: border-box;
 }
-/* Existing desktop styles (if you have any) */
+/* Existing desktop styles */
 nav ul {
   display: flex;
   justify-content: space-around;
@@ -16,7 +16,7 @@ nav ul li {
   margin: 0 10px;
 }
 
-/* Mobile styles (adjust breakpoint as needed) */
+/* Mobile styles */
 @media (max-width: 768px) {
   /* Example breakpoint for smaller screens */
   nav ul {
