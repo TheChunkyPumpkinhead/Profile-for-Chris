@@ -157,7 +157,9 @@ ul {
   padding: 20px;
 }
 .thumbnail {
-  width: 200px;
+  width: 100px;
+  height: 200px;
+  object-fit: cover
   border-radius: 0.3em;
   display: block;
   margin: 0 auto;
