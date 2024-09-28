@@ -80,6 +80,9 @@ header nav ul li {
 }
 
 /* ----- Main ----- */
+.imgClass {
+  object-fit: cover; /* Or contain, fill, none, scale-down */
+}
 h3 {
   font-family: "Megrim", cursive;
   font-size: 30px;
@@ -157,8 +160,8 @@ ul {
   padding: 20px;
 }
 .thumbnail {
-  width: 100px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   object-fit: cover
   border-radius: 0.3em;
   display: block;
