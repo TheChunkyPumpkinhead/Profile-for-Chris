@@ -236,7 +236,24 @@ footer {
 /* ---- Media ---- */
 
 @media only screen and (min-width: 800px) {
+
+  header nav ul,
+  #contact ul {
+    flex-flow: row; /* Change to row for horizontal layout */
+    justify-content: center; /* Center buttons horizontally */
+    align-items: center; /* Center buttons vertically */
+  }
+
   header nav ul {
+    margin: 10px 50px; /* Adjust margins if needed */
+  }
+
+  #contact ul li {
+    margin: 0 50px; /* Adjust margins if needed */
+  }
+}
+
+  /* header nav ul {
     margin: 10px 50px;
   }
   #contact ul {
@@ -247,7 +264,7 @@ footer {
   }
   #contact ul li {
     margin: 0 50px;
-  }
+  } */
   .tech {
     display: flex;
     justify-content: space-around;
