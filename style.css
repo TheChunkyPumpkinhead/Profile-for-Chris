@@ -25,7 +25,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 10px 0; /* Adjust vertical margin for better spacing */
+    margin: 10px 10; /* Adjust vertical margin for better spacing */
   }
 }
 
@@ -245,26 +245,15 @@ footer {
   }
 
   header nav ul {
-    margin: 10px 50px; /* Adjust margins if needed */
+    margin: 10px 30px; /* Adjust margins if needed */
   }
 
   #contact ul li {
-    margin: 0 50px; /* Adjust margins if needed */
+    margin: 0 30px; /* Adjust margins if needed */
   }
 }
 
-  /* header nav ul {
-    margin: 10px 50px;
-  }
-  #contact ul {
-    display: flex;
-    flex-flow: row;
-    list-style: none;
-    justify-content: center;
-  }
-  #contact ul li {
-    margin: 0 50px;
-  } */
+  
   .tech {
     display: flex;
     justify-content: space-around;
