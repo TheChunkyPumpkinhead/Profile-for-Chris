@@ -45,7 +45,7 @@ a {
 /* ----- header format ----- */
 header {
   color: rgb(0, 0, 0);
-  background-color: royalblue;
+  background-color:lightgrey;
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -62,7 +62,7 @@ header h1 {
 
 header nav {
   width: 100%;
-  background-color: royalblue;
+  background-color:lightgrey;
 }
 
 header nav ul {
@@ -230,7 +230,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: royalblue;
+  background-color:lightgray;
 }
 
 /* ---- Media ---- */
