@@ -239,7 +239,7 @@ footer {
 
   header nav ul,
   #contact ul {
-    flex-flow: row; /* Change to row for horizontal layout */
+    /* Change to row for horizontal layout */
     justify-content: center; /* Center buttons horizontally */
     align-items: center; /* Center buttons vertically */
   }
