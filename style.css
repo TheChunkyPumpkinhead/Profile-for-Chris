@@ -25,7 +25,7 @@ nav ul li {
   }
 
   nav ul li {
-    margin: 10px 10; /* Adjust vertical margin for better spacing */
+    align-items: center;
   }
 }
 
@@ -245,11 +245,11 @@ footer {
   }
 
   header nav ul {
-    margin: 10px 30px; /* Adjust margins if needed */
+    margin: 10px 50px; /* Adjust margins if needed */
   }
 
   #contact ul li {
-    margin: 0 30px; /* Adjust margins if needed */
+    margin: 0 50px; /* Adjust margins if needed */
   }
 }
 
