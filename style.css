@@ -48,7 +48,7 @@ main {
 }
 /* ----- header format ----- */
 header {
-  color: rgb(0, 0, 0);
+  color: rgb(12, 15, 187);
   background-color: slategray;
   display: flex;
   flex-flow: column;
