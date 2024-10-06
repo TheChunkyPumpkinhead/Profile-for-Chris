@@ -41,7 +41,11 @@ a {
   text-decoration: none;
   color: rgb(12, 15, 187);
 }
-
+main {
+  max-width: 900px;
+  padding: 50px;
+  margin: 0 auto;
+}
 /* ----- header format ----- */
 header {
   color: rgb(0, 0, 0);
@@ -109,7 +113,7 @@ h3 {
   width: 50%;
   height: 50%;
 }
-*/ .imageWrapper {
+.imageWrapper {
   max-width: 80%;
   display: flex;
   margin: 0 auto;
@@ -121,18 +125,11 @@ h3 {
   margin: 0 auto;
 }
 
-main {
-  max-width: 900px;
-  padding: 50px;
-  margin: 0 auto;
-}
-
+/* --------- Projects --------- */
 ul {
   list-style: none;
   padding: 0;
 }
-
-/* --------- Projects --------- */
 .projects {
   flex-direction: row;
 }
