@@ -55,9 +55,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-212,
-216,
-222 header h1 {
+header h1 {
   font-family: "Megrim", cursive;
   margin-top: 30px;
   margin-bottom: 0;
@@ -88,7 +86,7 @@ header nav ul li {
 .imgClass {
   object-fit: cover; /* Or contain, fill, none, scale-down */
 }
-h3 {
+h2 {
   font-family: "Megrim", cursive;
   font-size: 30px;
   color: rgb(12, 15, 187);
